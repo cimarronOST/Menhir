@@ -16,11 +16,9 @@
 */
 
 
-#include "main.h"
 #include "uci.h"
 
-int main() {
-    printf("Menhir 1 (experimental)\n");
-    uci_protocol();
-    return 0;
+void uci_protocol()
+{
+	getchar();
 }

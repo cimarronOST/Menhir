@@ -16,11 +16,8 @@
 */
 
 
-#include "main.h"
-#include "uci.h"
+#pragma once
 
-int main() {
-    printf("Menhir 1 (experimental)\n");
-    uci_protocol();
-    return 0;
-}
+#include "main.h"
+
+void uci_protocol();
