@@ -18,4 +18,14 @@
 
 #pragma once
 
+// including libraries that need to be accessible by all other source files
+
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+// defining all limiting constants of the engine
+
+#define LIM_PATH 4096
+#define LIM_INPUT 4096
+#define LIM_FEN 128

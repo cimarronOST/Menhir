@@ -21,6 +21,7 @@
 
 int main() {
     printf("Menhir 1 (experimental)\n");
+
     uci_protocol();
     return 0;
 }

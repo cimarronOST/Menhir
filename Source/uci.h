@@ -20,4 +20,7 @@
 
 #include "main.h"
 
+extern bool uci_stop;
+extern bool uci_infinite;
+
 void uci_protocol();
